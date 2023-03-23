@@ -1,0 +1,16 @@
+body{
+    background-color: #023;
+}
+
+header{
+    background-color: #aaa;
+    padding: 10px;
+    margin: 2px;
+}
+
+.headb1p{
+    display: inline-block;
+    background: aquamarine;
+    padding: 12px;
+    margin: 2px;
+}
