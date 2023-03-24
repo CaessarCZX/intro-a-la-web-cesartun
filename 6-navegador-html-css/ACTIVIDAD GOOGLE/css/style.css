@@ -1,16 +1,22 @@
 body{
-    background-color: #023;
+    background-color: #211a2a;
 }
 
-header{
-    background-color: #aaa;
-    padding: 10px;
-    margin: 2px;
-}
-
-.headb1p{
+#blank-sp{
     display: inline-block;
-    background: aquamarine;
-    padding: 12px;
-    margin: 2px;
+}
+
+.direct-links{
+    display: inline-block;
+}
+
+.direct-links a{
+    color: #eee;
+    text-decoration: none;
+    padding-left: 1em;
+    font: 0.8em Helvetica;
+}
+
+.special-icons{
+    display: inline-block;
 }
