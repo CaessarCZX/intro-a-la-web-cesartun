@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f0f0f0;
+    color: #1c1c1c;
+    font-family: sans-serif;
+}
+
+header{
+    display: flex;
+    padding: 0.7rem;
+    justify-content: right;
+}
+
+header .cont-sec-block{
+    display: flex;
+}
+
+header .cont-sec-block .cont-sec-block-elem{
+    display: block;
+}
+
+header .cont-sec-block .cont-sec-block-elem .toLi-1{
+    display: inline-block;
+    padding-left: 1rem;
+}
+
+header .cont-sec-block .cont-sec-block-elem .toLi-1 a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #1c1c1c;
+}
+
+.toLink-special button{
+    border: 0;
+    padding: 9px 26px;
+    background-color: #1a73e8;
+    border-radius: 0.2rem;
+    color: #f0f0f0;
+}
