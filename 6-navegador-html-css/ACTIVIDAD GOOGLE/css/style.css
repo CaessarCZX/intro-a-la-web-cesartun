@@ -5,8 +5,8 @@
 }
 
 body{
-    background-color: #f0f0f0;
-    color: #1c1c1c;
+    background-color: #fff;
+    color: #202124;
     font-family: sans-serif;
 }
 
@@ -20,25 +20,167 @@ header .cont-sec-block{
     display: flex;
 }
 
-header .cont-sec-block .cont-sec-block-elem{
-    display: block;
+.cont-sec-block .cont-sec-block-elem{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 1rem;
 }
 
-header .cont-sec-block .cont-sec-block-elem .toLi-1{
+.cont-sec-block-elem .toLi-1{
     display: inline-block;
     padding-left: 1rem;
 }
 
-header .cont-sec-block .cont-sec-block-elem .toLi-1 a{
+.toLi-1 a{
     text-decoration: none;
     font-size: 0.8rem;
     color: #1c1c1c;
 }
 
-.toLink-special button{
+.toLi-1 a:hover{
+    text-decoration: underline;
+}
+
+.cont-sec-block-elem .toLi-esp{
+    display: inline-flex;
+}
+
+.toLi-esp a{
     border: 0;
-    padding: 9px 26px;
+    padding: 9px 23px;
+    margin: 0px 8px 0px 8px;
     background-color: #1a73e8;
-    border-radius: 0.2rem;
+    border-radius: 0.3rem;
     color: #f0f0f0;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.toLi-esp a:hover{
+    background-color: #1e7efc;
+}
+
+.cont-sec-block-elem .toLi-ico{
+    display: inline-flex;
+}
+
+.toLi-ico a{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.toLi-ico a img{
+    width: 50%;
+}
+
+figure{
+    display: flex;
+    min-height: 9.5rem;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+figure img{
+    display: inline-block;
+    width: 17.5rem;
+}
+
+section{
+    display: block;
+    min-height: 12rem;
+}
+section .container-pos-base-text{
+    display: block;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.container-pos-base-text span{
+    font-size: 0.8rem;
+}
+
+.container-pos-base-text a{
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+.container-pos-base-text a:hover{
+    text-decoration: underline;
+}
+
+main{
+    display: block;
+    padding: 20px;
+    max-height: 160px;
+    min-height: 12rem;
+}
+
+/* main > form{
+    
+} */
+
+footer{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#toFooter{
+    position: absolute;
+    width: 100%;
+}
+
+footer section{
+    display: block;
+    min-height: min-content;
+}
+
+footer section span{
+    display: block;
+    padding:  15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    background-color: #f2f2f2;
+}
+
+footer nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 20px;
+    background-color: #f2f2f2;
+}
+
+/*Esta es un CSS media Querie, es una condicional que con la que
+puedes palicar un estilo determinado a un elemento de CSS de pendiendo
+de si cumple con las condiciones propicias */
+@media only screen and (max-width: 1200px) {
+    footer nav{
+        justify-content: center;
+    }
+}
+
+nav .nav-inf-bar{
+    display: flex;
+
+}
+
+.nav-inf-bar li{
+    list-style-type: none;
+    padding: 1rem;
+}
+
+.nav-inf-bar li a{
+    color: #70757d;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.nav-inf-bar li a:hover{
+    text-decoration: underline;
 }
